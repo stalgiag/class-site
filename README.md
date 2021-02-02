@@ -1,5 +1,5 @@
 # 😛 class-site 😛
-(![A screenshot of the website available at the link below](screenshots/default-screenshot.png?raw=true))
+![A screenshot of the website available at the link below](screenshots/default-screenshot.png?raw=true)
 
  A Gatsby.js Template for making optimized class sites with Google Docs, Front Matter, and SCSS.
 
