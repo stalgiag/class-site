@@ -98,3 +98,31 @@ header li {
     height: 100%;
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    header {
+        margin: 0;
+        grid-template-columns: 1fr;
+        grid-template-areas: "nav";
+        li {
+            font-size: 1.2em;
+            margin: 0.5rem;
+        }
+    }
+
+    #body-container {
+        display: inline-block;
+        overflow: hidden;
+        font-size: 0.9rem;
+    }
+    
+    .body-center-content {
+        height: 100vh;
+        overflow: hidden;
+    }
+    
+    nav ul {
+        padding: 0;
+    }
+}
+

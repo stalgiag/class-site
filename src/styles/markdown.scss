@@ -57,3 +57,37 @@
     margin-left: 10%;
     padding-right: 20%;
 }
+
+@media (max-width: 768px) {
+    .markdown-content {
+        padding: 0;
+        text-align: left;
+        max-width: 100%;
+        li {
+            margin-right: 20px;
+        }
+        p{
+            margin-bottom: 2px;
+            text-align: left;
+        }
+    }
+    
+    .markdown-content summary {
+        text-align: right;
+        font-size: 1.4em;
+    }
+    
+    .markdown-content details {
+        padding: 20px;
+        margin-bottom: 0;
+    
+    }
+    
+    
+    .class-schedule-details{
+        color:black;
+        direction: ltr;
+        margin: 5px;
+        padding: 10px;
+    }
+}

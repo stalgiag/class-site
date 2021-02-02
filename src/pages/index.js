@@ -16,6 +16,8 @@ class Home extends React.Component{
       activeTab: tabs.SYLLABUS
     };
 
+    this.isMobile = mobile();
+
     this.updateFocus = this.updateFocus.bind(this);
   }
 
@@ -23,16 +25,24 @@ class Home extends React.Component{
     this.setState({activeTab: newFocus});
   }
 
+  getLogo
+
   render() {
     return (
       <>
         <header>
           <Nav activeTab={this.state.activeTab} onChange={this.updateFocus}/>
-          <Logo />
+          {!this.isMobile &&
+            <Logo />
+          }
         </header>
         <Body section={this.state.activeTab} />
-        <Marquee />
-        <Footer />
+        {!this.isMobile &&
+            <Marquee />
+        }
+        {!this.isMobile &&
+            <Marquee />
+        }
       </>
     );
   }
