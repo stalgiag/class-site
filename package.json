@@ -1,9 +1,9 @@
 {
-  "name": "programming-for-artists-ccny-2020",
-  "private": true,
-  "description": "class site for Programming for Artists CCNY 2020",
+  "name": "class-site",
+  "private": false,
+  "description": "Class site made with GatsbyJS",
   "version": "0.1.0",
-  "license": "0BSD",
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
