@@ -1,6 +1,6 @@
 @import'./variables.scss';
 
-.footer {
+#footer {
     padding-top: 20px;
     color: $secondary-color-lighter;
     width:60%;
@@ -18,4 +18,14 @@
     font-size: 1.5rem;
     position: absolute;
     bottom: 0;
+}
+
+@media (max-width: 768px) {
+    #footer {
+        visibility: hidden;
+    }
+
+    #class-title {
+        visibility: hidden;
+    }
 }

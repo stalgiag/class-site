@@ -110,6 +110,10 @@ header li {
         }
     }
 
+    #logo-container {
+        visibility: hidden;
+    }
+
     #body-container {
         display: inline-block;
         overflow: hidden;

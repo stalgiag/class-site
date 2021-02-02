@@ -25,3 +25,13 @@ $marquee-background-color: marquee-background-color();
     max-height: 70px;
     pointer-events: none;
 }
+
+@media (max-width: 768px) {
+    #marquee-container {
+        visibility: hidden;
+    }
+    
+    .is-init{
+        visibility: hidden;
+    }
+}
