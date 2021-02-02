@@ -41,7 +41,7 @@ class Home extends React.Component{
             <Marquee />
         }
         {!this.isMobile &&
-            <Marquee />
+            <Footer />
         }
       </>
     );
