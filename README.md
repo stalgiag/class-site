@@ -21,6 +21,8 @@
 - Step 4:
   - Fill out `src/markdown/schedule.md` and `src/markdown/resources.md`
 - Step 5:
+  - If your repository is named something other than 'class-site', edit the `pathPrefix` value in gatsby-config.js.
+- Step 6:
   - Run `npm run deploy` and wait, after a minute or so your website should be up at the appropriate Github pages link
   - Run this step anytime you need to update the website
 
